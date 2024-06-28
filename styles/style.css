@@ -5,17 +5,17 @@ body {
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 14px 16 px;
     overflow: hidden;
-    background-color:#d0d1ff;
+    background-color: #d0d1ff;
 }
 
 li {
-float: left;
-border-right:1px solid #bbb;
+    float: left;
+    border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -23,7 +23,7 @@ li:last-child {
 }
 
 h1 {
-    color:black;
+    color: black;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -31,16 +31,22 @@ h1 {
 }
 
 li a:hover:not(.active) {
-background-color: ;
+    background-color: #c6fcfe;
 }
 
 .active {
     background-color: #ecbcfdff;
 }
 
-/*This is an example of how I would group things together*/
 #about {
     background-color: rgb(224, 178, 218);
+}
+
+table {
+    border-radius: 10px;
+    border-color:  3px rgb(146, 31, 167);
+    width: 100%;
+    text-align:center
 }
 
 /* CSS HEX */
